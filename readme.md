@@ -10,6 +10,8 @@ This package includes the shareable ESLint configuration consumed by [Brixtol Te
 pnpm i @brixtol/eslint-config-typescript --save-dev
 ```
 
+> This project is not available on the NPM registry
+
 ### Usage
 
 Extend the configuration within `package.json`
