@@ -1,0 +1,12 @@
+{
+  "vsicons.associations.files": [
+    {
+      "icon": "eslint",
+      "extensions": [
+        "eslint.js"
+      ],
+      "filename": true,
+      "format": "svg"
+    }
+  ]
+}
