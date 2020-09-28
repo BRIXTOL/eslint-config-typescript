@@ -1,3 +1,7 @@
+
+/**
+ * @type{import('eslint').Rule}
+ */
 module.exports = {
   env: {
     browser: true,
@@ -30,6 +34,7 @@ module.exports = {
         variables: true
       }
     ],
+    quotes: ["error", "single"],
     indent: [
       'error',
       2,
