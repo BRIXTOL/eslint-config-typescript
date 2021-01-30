@@ -9,13 +9,10 @@ module.exports = {
     jest: false, // FUCK FACEBOOK
     node: true
   },
-  extends: [
-    "plugin:@typescript-eslint/recommended"
-  ],
-  plugins: [
-    '@typescript-eslint'
-  ],
-  parser: '@typescript-eslint/parser',
+  extends: 'standard-with-typescript',
+  parserOptions: {
+    project: './tsconfig.json'
+  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module'
